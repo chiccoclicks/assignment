@@ -53,7 +53,7 @@ def main():
         with open(vid, mode='wb') as f:
             f.write(uploaded_video.read()) 
 
-        st.sidebar.markdown(f"""
+        st.markdown(f"""
         ### Files
         - {vid}
         """,
